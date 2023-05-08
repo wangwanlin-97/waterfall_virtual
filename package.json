@@ -1,6 +1,6 @@
 {
   "name": "waterfall_virtual",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "the waterfall flow uses virtual lists.",
 
   "main": "dist/waterfall_virtual.js",
@@ -21,5 +21,14 @@
     "typescript": "^5.0.4",
     "webpack": "^5.82.0",
     "webpack-cli": "^5.1.0"
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "readme.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wangwanlin-97/waterfall_virtual.git"
   }
 }
