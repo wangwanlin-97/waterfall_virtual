@@ -1,0 +1,25 @@
+{
+  "name": "waterfall_virtual",
+  "version": "1.0.0",
+  "description": "the waterfall flow uses virtual lists.",
+
+  "main": "dist/waterfall_virtual.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "waterfall",
+    "virtual"
+  ],
+  "author": "wang",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "babel-loader": "^9.1.2",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.82.0",
+    "webpack-cli": "^5.1.0"
+  }
+}
