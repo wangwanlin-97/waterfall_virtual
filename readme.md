@@ -1,6 +1,12 @@
 ### :smile:waterfall_virtual :smile:
 ------
- this is a little tool to help with waterfall layout and is optimized by using virtual list.  
+This is a typescript module, which is used for rendering a waterfall layout of items in an HTML container. The class has several properties and methods, including container (the HTML container element), datas (an array of data to be rendered), generateFun (a function that generates the data for rendering), render (a method that renders the data in the container using the waterfall layout algorithm), refreshAble (a method that binds the resize and scroll events to update the rendering), getRange (a method that gets the rendering range based on the current scroll position), update (a method that updates the rendering by adding or removing items based on the current rendering range), and pushData (a method that adds more data to the rendering).
+
+The Render class uses the WaterFallItem type, which represents an item in the waterfall layout and contains the HTML element (ele), height (height), and translation values (translateX and translateY). The GenerateDataFun type represents a function that generates the data for rendering, and takes an array of data and an item width as input, and returns a promise that resolves to an array of WaterFallItem objects.
+
+The Render class also uses a debounce function to limit the frequency of rendering or updating the rendering, by wrapping the rendering or updating function in a timer that delays its execution by a specified amount of time.
+
+Overall, this module provides a flexible and customizable way to render a waterfall layout of items in an HTML container, with support for dynamic data loading and adaptive layout based on the container size.
  
  ### :thumbsup:usage
  to use this tool,you should install it first
