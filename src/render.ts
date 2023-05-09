@@ -19,6 +19,9 @@ function getRender() {
         datas: any[] = []
         trueDatas: WaterFallItem[] = []
         heights: number[] = []
+        /**
+         * 生成用于渲染的数据
+         */
         generateFun
         containerHeight = 0
         column = 0
@@ -42,6 +45,7 @@ function getRender() {
                 instance.max = max
                 instance.gap = gap
                 instance.debounced()
+                instance.refreshAble()
                 return instance
 
             }
@@ -153,7 +157,7 @@ function getRender() {
 
 
         /**
-         * 绑定resize
+         * 绑定resize和scroll
          */
         refreshAble() {
 

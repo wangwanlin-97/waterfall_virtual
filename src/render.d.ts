@@ -17,6 +17,9 @@ declare const Render: {
         datas: any[];
         trueDatas: WaterFallItem[];
         heights: number[];
+        /**
+         * 生成用于渲染的数据
+         */
         generateFun: GenerateDataFun | undefined;
         containerHeight: number;
         column: number;
@@ -35,7 +38,7 @@ declare const Render: {
          */
         render(): Promise<any | undefined>;
         /**
-         * 绑定resize
+         * 绑定resize和scroll
          */
         refreshAble(): void;
         /**

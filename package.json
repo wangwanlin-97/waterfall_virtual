@@ -1,6 +1,6 @@
 {
   "name": "waterfall_virtual",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "the waterfall flow uses virtual lists.",
 
   "main": "dist/waterfall_virtual.js",
